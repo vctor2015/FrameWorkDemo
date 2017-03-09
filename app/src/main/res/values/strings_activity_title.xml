@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_about">关于</string>
+    <string name="title_http">Http请求基本使用</string>
+    <string name="title_http_operators">Http请求使用RxJava操作符</string>
+    <string name="title_glide">Glide图片加载</string>
+    <string name="title_js_bridge">JS与WebView互调</string>
+    <string name="title_swipe_refresh">下拉刷新</string>
+    <string name="title_preference">设置[preferences]</string>
+    <string name="title_preference_pattern">图案偏好</string>
+    <string name="title_setting_pattern">设置图案锁</string>
+    <string name="title_pattern_unlock">手势解锁</string>
+    <string name="title_calendar">日历[Calender]</string>
+    <string name="title_flow_layout_manager">流式布局[FlowLayoutManager]</string>
+    <string name="title_leak_canary">内存泄露检查[LeakCanary]</string>
+    <string name="title_state_layout">状态布局</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_dial_positive">拨打</string>
+    <string name="dialog_pattern_reset">重新设置解锁密码？</string>
+</resources>

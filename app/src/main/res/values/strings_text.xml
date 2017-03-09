@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radio_http_base">基础调用方式</string>
+    <string name="radio_http_super_1">调用方式1（HttpTransformer）</string>
+    <string name="radio_http_super_2">调用方式2（HttpTransformer2）</string>
+    <string name="text_http_query">输入间隔小于400ms,则不会发送请求</string>
+    <string name="text_pattern_init">绘制解锁图案</string>
+    <string name="text_pattern_unlock">请滑动输入密码</string>
+    <string name="text_pattern_error_too_short">最少连接4个点，请重新输入</string>
+    <string name="text_pattern_error_match">与上次绘制不一致，请重新输入</string>
+    <string name="text_pattern_second">再次绘制解锁图案</string>
+    <string name="text_pattern_complete">绘制完成</string>
+    <string name="text_pattern_unlock_correct">解锁成功</string>
+    <string name="text_pattern_unlock_error">密码错误，你还可以再输入%d次</string>
+</resources>

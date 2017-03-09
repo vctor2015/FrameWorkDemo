@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="all">
+
+    <include layout="@layout/appbar_layout" />
+
+    <com.centanet.framework.widgets.StateLayout
+        android:id="@+id/stateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:errorLayout="@layout/state_error"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:loadingLayout="@layout/state_loading">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+    </com.centanet.framework.widgets.StateLayout>
+
+</android.support.design.widget.CoordinatorLayout>

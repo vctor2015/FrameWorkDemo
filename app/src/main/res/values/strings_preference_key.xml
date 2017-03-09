@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_push">push</string>
+    <string name="key_msg">message</string>
+    <string name="key_check">check</string>
+    <string name="key_edit">edit</string>
+    <string name="key_network">network</string>
+    <string name="key_pattern_lock_limit">pattern_lock_limit</string>
+    <string name="key_pattern_lock_switch">pattern_lock_switch</string>
+</resources>

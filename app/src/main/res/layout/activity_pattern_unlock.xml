@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/appbar_layout"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/atv_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/text_pattern_unlock"
+            android:textColor="@color/material_default_deep_teal_500"
+            android:textSize="14sp"/>
+
+        <me.zhanghai.android.patternlock.PatternView
+            android:id="@+id/patternView"
+            style="@style/PatternView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:pl_errorColor="@color/colorAccent"
+            app:pl_regularColor="@color/material_default_deep_teal_200"
+            app:pl_successColor="@color/material_default_deep_teal_500"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/atv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/reset"
+            android:textColor="@color/material_default_deep_teal_500"
+            android:textSize="14sp"/>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

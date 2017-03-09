@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--text colors-->
+    <color name="blackLight">#999999</color>
+    <color name="blackMedium">#666666</color>
+    <color name="blackDark">#333333</color>
+
+    <!--page background color-->
+    <color name="appBackground">#F0F0F0</color>
+
+    <!--app theme color-->
+    <color name="colorPrimary">#F13E06</color>
+    <color name="colorPrimaryDark">#F13E06</color>
+    <color name="colorAccent">#F13E06</color>
+</resources>

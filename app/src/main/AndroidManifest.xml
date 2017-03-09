@@ -1,0 +1,87 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.centanet.frameworkdemo">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.centanet.frameworkdemo.AppGlideModule"
+            android:value="GlideModule" />
+
+        <!--hotFix-->
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="${HOT_FIX}" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="@string/hot_fix" />
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.HttpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.HttpOperatorsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.GlideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.JsBridgeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SwipeRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PreferenceSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PreferencePatternLockActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SettingPatternLockActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PatternUnlockActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CalendarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.FlowLayoutManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LeakCanaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.StateLayoutActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

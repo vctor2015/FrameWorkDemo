@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_request">开始请求</string>
+    <string name="btn_request_combine_last">开始请求(CombineLast)</string>
+    <string name="btn_request_zip">开始请求(Zip)</string>
+    <string name="btn_request_depends">开始请求(Depends)</string>
+    <string name="btn_js_bridge">native调用js</string>
+    <string name="btn_reload">重新加载</string>
+    <string name="btn_add_random">随机增加一个</string>
+    <string name="btn_remove_random">随机删除</string>
+    <string name="btn_start_task">开启AsyncTask</string>
+</resources>

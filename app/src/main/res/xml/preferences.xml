@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/key_push"
+        android:title="@string/pf_push">
+
+        <SwitchPreference
+            android:checked="true"
+            android:defaultValue="true"
+            android:key="@string/key_msg"
+            android:summary="@string/pf_message_summary"
+            android:title="@string/pf_message"/>
+
+    </PreferenceCategory>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/key_check"
+        android:summary="@string/pf_check_summary"
+        android:title="@string/pf_check"/>
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:inputType="phone"
+        android:key="@string/key_edit"
+        android:summary="@string/pf_edit_summary"
+        android:title="@string/pf_edit"/>
+
+    <Preference
+        android:summary="自定义文本概要"
+        android:title="自定义文本"
+        android:layout="@layout/preference_text"/>
+
+    <PreferenceScreen
+        android:key="@string/key_network"
+        android:title="@string/pf_network">
+
+        <Preference android:title="@string/pf_network_wifi"/>
+
+        <Preference android:title="@string/pf_network_4g"/>
+    </PreferenceScreen>
+
+    <Preference
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/title_about">
+        <intent
+            android:targetClass="com.centanet.frameworkdemo.activities.AboutActivity"
+            android:targetPackage="com.centanet.frameworkdemo"/>
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pf_push">推送通知</string>
+    <string name="pf_message">接收消息通知</string>
+    <string name="pf_message_summary">不在应用内部也能收到消息通知</string>
+    <string name="pf_check">勾选</string>
+    <string name="pf_check_summary">勾选概要</string>
+    <string name="pf_edit">输入框preference</string>
+    <string name="pf_edit_summary">输入框preference概要</string>
+    <string name="pf_network">子设置页面</string>
+    <string name="pf_network_wifi">wifi</string>
+    <string name="pf_network_4g">4G</string>
+    <string name="pf_pattern_lock_limit">自动锁定</string>
+    <string name="pf_pattern_lock_limit_summary">%s</string>
+    <string name="pf_pattern_lock_title">自动锁定时间</string>
+    <string name="pf_pattern_lock_switch">开启手势密码验证</string>
+    <string name="pf_pattern_lock_switch_summary">进入应用需要验证手势密码</string>
+    <string name="pf_pattern_lock_setting">设置手势密码</string>
+</resources>

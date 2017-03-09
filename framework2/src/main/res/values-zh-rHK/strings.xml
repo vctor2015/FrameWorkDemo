@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">framework</string>
+
+    <string name="network_unable">網絡不可用</string>
+    <string name="sd_unable">SD卡不可用</string>
+
+    <string name="setting">設置</string>
+    <string name="search">搜索</string>
+
+    <string name="app_update_title">版本更新</string>
+    <string name="app_update_positive">升級</string>
+    <string name="app_update_negative">下次提醒</string>
+    <string name="app_update_progress">正在下載&#8230;</string>
+    <string name="app_update_complete">下載成功，點擊安裝。</string>
+    <string name="app_update_error">下載失敗，建議在wifi下更新！</string>
+    <string name="app_update_retry">點擊重識</string>
+
+    <string name="image_download_success">圖片已下載到本地相冊</string>
+    <string name="image_download_failed">圖片下載失敗</string>
+
+    <string name="swipe_loading_more">加載更多&#8230;</string>
+    <string name="swipe_loading_error">網絡不給力,點擊重識</string>
+    <string name="swipe_def_error">網絡不給力\n點擊重識</string>
+    <string name="swipe_def_text">沒有找到信息\n換個條件試試</string>
+
+    <string name="load_error_retry">加載失敗，點擊重識</string>
+</resources>
